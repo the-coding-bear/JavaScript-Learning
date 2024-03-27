@@ -20,7 +20,7 @@ createUser.prototype.printMe = function(){
     console.log(`price is ${this.score}`);
 }
 
-const acon =  new createUser("akku",24);
-const bcon = createUser("abbu",250);
+const acon =  new createUser("akku",24)
+const bcon = createUser("abbu",250)
  
 acon.printMe()
